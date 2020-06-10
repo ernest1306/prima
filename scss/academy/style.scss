@@ -1,0 +1,80 @@
+@import "../variables";
+
+body {
+    background-color: black;
+}
+a {
+    -moz-transition: color 0.7s ease-in-out, color 0.7s ease-in-out;
+    -o-transition: color 0.7s ease-in-out, color 0.7s ease-in-out;
+    -webkit-transition: color 0.7s ease-in-out, color 0.7s ease-in-out;
+    transition: color 0.7s ease-in-out, color 0.7s ease-in-out;
+
+    color: inherit;
+    &:hover {
+        text-decoration: inherit;
+        color: $academySecondaryColor;
+    }
+}
+
+.mynav {
+    background: linear-gradient(
+        90deg,
+        rgba(0, 0, 0, 1) 0%,
+        rgba(18, 32, 34, 0.95) 80%,
+        rgba(10, 23, 27, 0.6) 100%
+    ) !important;
+    backdrop-filter: blur(20px);
+
+    .nav-item {
+        margin: 14;
+        font-size: 50px;
+        font-weight: 200;
+        &:hover{
+            color: $academySecondaryColor!important;
+        }
+    }
+}
+
+.jumbotron {
+    background: linear-gradient(rgba(1, 43, 105, 0.452), rgba(53, 128, 128, 0.45)),
+        url(https://source.unsplash.com/1800x700/?cinema);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    color: white !important;
+    height: 500px;
+    .lead {
+        font-size: 2rem;
+    }
+
+    .btn {
+        -moz-transition: background-color 0.7s ease-in-out, color 0.7s ease-in-out;
+        -o-transition: background-color 0.7s ease-in-out, color 0.7s ease-in-out;
+        -webkit-transition: background-color 0.7s ease-in-out, color 0.7s ease-in-out;
+        transition: background-color 0.7s ease-in-out, color 0.7s ease-in-out;
+
+        color: white;
+        border-color: white;
+        border-radius: 0px;
+        font-weight: 100;
+        margin-top: 20px;
+        &:hover {
+            background-color: $academyColor;
+        }
+    }
+}
+
+.profiles {
+    .fa {
+        -moz-transition: color 0.7s ease-in-out, color 0.3s ease-in-out;
+        -o-transition: color 0.7s ease-in-out, color 0.3s ease-in-out;
+        -webkit-transition: color 0.7s ease-in-out, color 0.3s ease-in-out;
+        transition: color 0.7s ease-in-out, color 0.3s ease-in-out;
+        &:hover{
+            color: $academySecondaryColor;
+        }
+    }
+    a {
+        color: inherit;
+    }
+}
+

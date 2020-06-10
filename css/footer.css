@@ -1,0 +1,12 @@
+.page-footer {
+  padding-bottom: 20px;
+  background-color: #101214;
+  color: white; }
+  .page-footer p {
+    -moz-transition: color 0.7s ease-in-out, color 0.7s ease-in-out;
+    -o-transition: color 0.7s ease-in-out, color 0.7s ease-in-out;
+    -webkit-transition: color 0.7s ease-in-out, color 0.7s ease-in-out;
+    transition: color 0.7s ease-in-out, color 0.7s ease-in-out;
+    color: white; }
+    .page-footer p:hover {
+      color: #60c2f0 !important; }

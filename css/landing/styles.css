@@ -1,0 +1,44 @@
+.splash {
+  background: black;
+  background: linear-gradient(90deg, black 0%, #122022 56%, #0a171b 100%); }
+  .splash .splash-logo {
+    margin: auto;
+    object-fit: contain;
+    width: 95%;
+    max-width: 35em; }
+    .splash .splash-logo:hover {
+      -webkit-filter: drop-shadow(5px 5px 4px rgba(0, 0, 0, 0.5));
+      filter: drop-shadow(5px 5px 4px rgba(0, 0, 0, 0.5)); }
+
+a {
+  color: inherit; }
+  a:hover {
+    text-decoration: none;
+    color: inherit; }
+
+.menu {
+  margin: auto;
+  border-bottom: solid;
+  border-color: #fff;
+  margin-bottom: 180px; }
+  .menu .menuItem {
+    text-transform: uppercase;
+    padding: 10px;
+    color: #fff;
+    font-size: 35px;
+    font-family: "Baloo 2", cursive;
+    text-align: center;
+    -moz-transition: background-color 0.7s ease-in-out, color 0.7s ease-in-out;
+    -o-transition: background-color 0.7s ease-in-out, color 0.7s ease-in-out;
+    -webkit-transition: background-color 0.7s ease-in-out, color 0.7s ease-in-out;
+    transition: background-color 0.7s ease-in-out, color 0.7s ease-in-out;
+    transition-delay: 0.1s; }
+  .menu #academy:hover {
+    background-color: white;
+    color: #0f6186; }
+  .menu #cinema:hover {
+    background-color: white;
+    color: #025f02; }
+  .menu #mm:hover {
+    background-color: white;
+    color: #830909; }

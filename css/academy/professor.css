@@ -1,0 +1,46 @@
+body {
+  background: black; }
+  body .main {
+    background-color: #101214;
+    padding: 30px;
+    margin-top: 35px;
+    margin-bottom: 35px; }
+
+a {
+  -moz-transition: color 0.7s ease-in-out, color 0.7s ease-in-out;
+  -o-transition: color 0.7s ease-in-out, color 0.7s ease-in-out;
+  -webkit-transition: color 0.7s ease-in-out, color 0.7s ease-in-out;
+  transition: color 0.7s ease-in-out, color 0.7s ease-in-out;
+  color: inherit; }
+  a:hover {
+    text-decoration: inherit;
+    color: #60c2f0; }
+
+.mynav {
+  background: linear-gradient(90deg, black 0%, rgba(18, 32, 34, 0.95) 80%, rgba(10, 23, 27, 0.6) 100%) !important;
+  backdrop-filter: blur(20px); }
+  .mynav .nav-item {
+    margin: 14;
+    font-size: 50px;
+    font-weight: 200; }
+    .mynav .nav-item:hover {
+      color: #60c2f0 !important; }
+
+.image {
+  float: left;
+  background: #252525;
+  height: 20rem;
+  width: 20rem;
+  border-radius: 0px !important;
+  -webkit-filter: drop-shadow(5px 5px 4px rgba(0, 0, 0, 0.5));
+  filter: drop-shadow(5px 5px 4px rgba(0, 0, 0, 0.5));
+  margin-right: 2rem;
+  margin-top: 2rem; }
+
+.content {
+  font-size: 16px;
+  letter-spacing: 0.09rem;
+  line-height: 2.2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: #ebebeb; }

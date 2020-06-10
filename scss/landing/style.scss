@@ -1,0 +1,65 @@
+@import "../variables";
+
+.splash {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(18, 32, 34, 1) 56%, rgba(10, 23, 27, 1) 100%);
+    .splash-logo {
+        margin: auto;
+        object-fit: contain;
+        width: 95%;
+        max-width: 35em;
+        &:hover {
+            -webkit-filter: drop-shadow(5px 5px 4px rgba(0, 0, 0, 0.5));
+            filter: drop-shadow(5px 5px 4px rgba(0, 0, 0, 0.5));
+        }
+    }
+}
+
+a {
+    color: inherit;
+    &:hover {
+        text-decoration: none;
+        color: inherit;
+    }
+}
+
+.menu {
+    margin: auto;
+    border-bottom: solid;
+    border-color: #fff;
+    margin-bottom: 180px;
+    .menuItem {
+        text-transform: uppercase;
+        padding: 10px;
+        color: #fff;
+        font-size: 35px;
+        font-family: "Baloo 2", cursive;
+        text-align: center;
+
+        -moz-transition: background-color 0.7s ease-in-out, color 0.7s ease-in-out;
+        -o-transition: background-color 0.7s ease-in-out, color 0.7s ease-in-out;
+        -webkit-transition: background-color 0.7s ease-in-out, color 0.7s ease-in-out;
+        transition: background-color 0.7s ease-in-out, color 0.7s ease-in-out;
+        transition-delay: 0.1s;
+    }
+    #academy {
+        &:hover {
+            background-color: white;
+            color: $academyColor;
+        }
+    }
+
+    #cinema {
+        &:hover {
+            background-color: white;
+            color: rgb(2, 95, 2);
+        }
+    }
+
+    #mm {
+        &:hover {
+            background-color: white;
+            color: rgb(131, 9, 9);
+        }
+    }
+}

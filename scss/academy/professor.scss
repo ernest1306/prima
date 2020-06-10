@@ -1,0 +1,65 @@
+@import "../variables";
+
+body {
+    background: black;
+
+    .main {
+        background-color: rgb(16, 18, 20);
+        padding: 30px;
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+}
+a {
+    -moz-transition: color 0.7s ease-in-out, color 0.7s ease-in-out;
+    -o-transition: color 0.7s ease-in-out, color 0.7s ease-in-out;
+    -webkit-transition: color 0.7s ease-in-out, color 0.7s ease-in-out;
+    transition: color 0.7s ease-in-out, color 0.7s ease-in-out;
+
+    color: inherit;
+    &:hover {
+        text-decoration: inherit;
+        color: $academySecondaryColor;
+    }
+}
+
+.mynav {
+    background: linear-gradient(
+        90deg,
+        rgba(0, 0, 0, 1) 0%,
+        rgba(18, 32, 34, 0.95) 80%,
+        rgba(10, 23, 27, 0.6) 100%
+    ) !important;
+    backdrop-filter: blur(20px);
+
+    .nav-item {
+        margin: 14;
+        font-size: 50px;
+        font-weight: 200;
+        &:hover {
+            color: $academySecondaryColor !important;
+        }
+    }
+}
+.image{
+    float: left;
+    background: rgb(37, 37, 37);
+    height: 20rem;
+    width: 20rem;
+    border-radius: 0px!important;
+    -webkit-filter: drop-shadow(5px 5px 4px rgba(0, 0, 0, 0.5));
+    filter: drop-shadow(5px 5px 4px rgba(0, 0, 0, 0.5));
+    margin-right: 2rem;
+    margin-top: 2rem;
+}
+
+.content {
+    font-size: 16px;
+    letter-spacing: 0.09rem;
+    line-height: 2.2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: rgb(235, 235, 235);
+}
+
+
